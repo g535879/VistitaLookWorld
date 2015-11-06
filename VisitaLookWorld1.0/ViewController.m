@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#define MAX_WIDTH [UIScreen mainScreen].bounds.size.width
+#define MAX_HEIGHT [UIScreen mainScreen].bounds.size.height
+
 @interface ViewController ()
 
 @end
@@ -16,7 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setNavigationBarRefer]; //设置导航栏
+    [self setLayout]; //布局相关
+}
+
+
+
+- (void)setNavigationBarRefer {
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bigShadow.png"] forBarMetrics:UIBarMetricsCompactPrompt];
+    UIImageView *bgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 20,MAX_WIDTH , 44)];
+    bgView.image = [UIImage imageNamed:@"标题栏底.png"];
+    [self.navigationController.view insertSubview:bgView belowSubview:self.navigationController.navigationBar];
+}
+
+//布局相关
+- (void)setLayout {
+    //设置背景图
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"资讯背景底@2x"]]];
 }
 
 - (void)didReceiveMemoryWarning {
