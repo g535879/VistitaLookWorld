@@ -42,8 +42,8 @@
 		AD4222441BECB85D0067B1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD4222461BECB85D0067B1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD4222471BECB85D0067B1B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD4222491BECB85D0067B1B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD42224A1BECB85D0067B1B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD4222491BECB85D0067B1B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../VisitaLookWorld1.0/ViewController.h; sourceTree = "<group>"; };
+		AD42224A1BECB85D0067B1B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../VisitaLookWorld1.0/ViewController.m; sourceTree = "<group>"; };
 		AD42224D1BECB85D0067B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD42224F1BECB85D0067B1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4222521BECB85D0067B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +86,10 @@
 		AD4222371BECB85D0067B1B0 = {
 			isa = PBXGroup;
 			children = (
+				AD4222761BECBB680067B1B0 /* Model */,
+				AD4222771BECBB680067B1B0 /* Resources */,
+				AD4222781BECBB680067B1B0 /* View */,
+				AD4222791BECBB680067B1B0 /* ViewControllers */,
 				AD4222421BECB85D0067B1B0 /* VisitaLookWorld1.0 */,
 				AD42225C1BECB85D0067B1B0 /* VisitaLookWorld1.0Tests */,
 				AD4222671BECB85D0067B1B0 /* VisitaLookWorld1.0UITests */,
@@ -110,8 +114,6 @@
 			children = (
 				AD4222461BECB85D0067B1B0 /* AppDelegate.h */,
 				AD4222471BECB85D0067B1B0 /* AppDelegate.m */,
-				AD4222491BECB85D0067B1B0 /* ViewController.h */,
-				AD42224A1BECB85D0067B1B0 /* ViewController.m */,
 				AD42224C1BECB85D0067B1B0 /* Main.storyboard */,
 				AD42224F1BECB85D0067B1B0 /* Assets.xcassets */,
 				AD4222511BECB85D0067B1B0 /* LaunchScreen.storyboard */,
@@ -145,6 +147,36 @@
 				AD42226A1BECB85D0067B1B0 /* Info.plist */,
 			);
 			path = VisitaLookWorld1.0UITests;
+			sourceTree = "<group>";
+		};
+		AD4222761BECBB680067B1B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD4222771BECBB680067B1B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD4222781BECBB680067B1B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD4222791BECBB680067B1B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD4222491BECB85D0067B1B0 /* ViewController.h */,
+				AD42224A1BECB85D0067B1B0 /* ViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		CE86F19C4E258FE7B155ABDA /* Pods */ = {
