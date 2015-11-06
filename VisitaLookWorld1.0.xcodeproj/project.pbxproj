@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966E0AB1056D240A9E5DC7B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00223705B1868C35060D8A1D /* libPods.a */; };
+		AD4222451BECB85D0067B1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222441BECB85D0067B1B0 /* main.m */; };
+		AD4222481BECB85D0067B1B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222471BECB85D0067B1B0 /* AppDelegate.m */; };
+		AD42224B1BECB85D0067B1B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42224A1BECB85D0067B1B0 /* ViewController.m */; };
+		AD42224E1BECB85D0067B1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42224C1BECB85D0067B1B0 /* Main.storyboard */; };
+		AD4222501BECB85D0067B1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD42224F1BECB85D0067B1B0 /* Assets.xcassets */; };
+		AD4222531BECB85D0067B1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4222511BECB85D0067B1B0 /* LaunchScreen.storyboard */; };
+		AD42225E1BECB85D0067B1B0 /* VisitaLookWorld1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42225D1BECB85D0067B1B0 /* VisitaLookWorld1_0Tests.m */; };
+		AD4222691BECB85D0067B1B0 /* VisitaLookWorld1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222681BECB85D0067B1B0 /* VisitaLookWorld1_0UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD42225A1BECB85D0067B1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4222381BECB85D0067B1B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42223F1BECB85D0067B1B0;
+			remoteInfo = VisitaLookWorld1.0;
+		};
+		AD4222651BECB85D0067B1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4222381BECB85D0067B1B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42223F1BECB85D0067B1B0;
+			remoteInfo = VisitaLookWorld1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00223705B1868C35060D8A1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5127BF153E2BAC53F43545CE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AD4222401BECB85D0067B1B0 /* VisitaLookWorld1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitaLookWorld1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4222441BECB85D0067B1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD4222461BECB85D0067B1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD4222471BECB85D0067B1B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD4222491BECB85D0067B1B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD42224A1BECB85D0067B1B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD42224D1BECB85D0067B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD42224F1BECB85D0067B1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4222521BECB85D0067B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD4222541BECB85D0067B1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4222591BECB85D0067B1B0 /* VisitaLookWorld1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitaLookWorld1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42225D1BECB85D0067B1B0 /* VisitaLookWorld1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitaLookWorld1_0Tests.m; sourceTree = "<group>"; };
+		AD42225F1BECB85D0067B1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4222641BECB85D0067B1B0 /* VisitaLookWorld1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitaLookWorld1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4222681BECB85D0067B1B0 /* VisitaLookWorld1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitaLookWorld1_0UITests.m; sourceTree = "<group>"; };
+		AD42226A1BECB85D0067B1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7EE40081325883B98DB2F3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD42223D1BECB85D0067B1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966E0AB1056D240A9E5DC7B7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4222561BECB85D0067B1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4222611BECB85D0067B1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4222371BECB85D0067B1B0 = {
+			isa = PBXGroup;
+			children = (
+				AD4222421BECB85D0067B1B0 /* VisitaLookWorld1.0 */,
+				AD42225C1BECB85D0067B1B0 /* VisitaLookWorld1.0Tests */,
+				AD4222671BECB85D0067B1B0 /* VisitaLookWorld1.0UITests */,
+				AD4222411BECB85D0067B1B0 /* Products */,
+				CE86F19C4E258FE7B155ABDA /* Pods */,
+				F81BA372087B9D7CEDB3B086 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4222411BECB85D0067B1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4222401BECB85D0067B1B0 /* VisitaLookWorld1.0.app */,
+				AD4222591BECB85D0067B1B0 /* VisitaLookWorld1.0Tests.xctest */,
+				AD4222641BECB85D0067B1B0 /* VisitaLookWorld1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4222421BECB85D0067B1B0 /* VisitaLookWorld1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				AD4222461BECB85D0067B1B0 /* AppDelegate.h */,
+				AD4222471BECB85D0067B1B0 /* AppDelegate.m */,
+				AD4222491BECB85D0067B1B0 /* ViewController.h */,
+				AD42224A1BECB85D0067B1B0 /* ViewController.m */,
+				AD42224C1BECB85D0067B1B0 /* Main.storyboard */,
+				AD42224F1BECB85D0067B1B0 /* Assets.xcassets */,
+				AD4222511BECB85D0067B1B0 /* LaunchScreen.storyboard */,
+				AD4222541BECB85D0067B1B0 /* Info.plist */,
+				AD4222431BECB85D0067B1B0 /* Supporting Files */,
+			);
+			path = VisitaLookWorld1.0;
+			sourceTree = "<group>";
+		};
+		AD4222431BECB85D0067B1B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD4222441BECB85D0067B1B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD42225C1BECB85D0067B1B0 /* VisitaLookWorld1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42225D1BECB85D0067B1B0 /* VisitaLookWorld1_0Tests.m */,
+				AD42225F1BECB85D0067B1B0 /* Info.plist */,
+			);
+			path = VisitaLookWorld1.0Tests;
+			sourceTree = "<group>";
+		};
+		AD4222671BECB85D0067B1B0 /* VisitaLookWorld1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4222681BECB85D0067B1B0 /* VisitaLookWorld1_0UITests.m */,
+				AD42226A1BECB85D0067B1B0 /* Info.plist */,
+			);
+			path = VisitaLookWorld1.0UITests;
+			sourceTree = "<group>";
+		};
+		CE86F19C4E258FE7B155ABDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EE40081325883B98DB2F3 /* Pods.debug.xcconfig */,
+				5127BF153E2BAC53F43545CE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F81BA372087B9D7CEDB3B086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00223705B1868C35060D8A1D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD42223F1BECB85D0067B1B0 /* VisitaLookWorld1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42226D1BECB85D0067B1B0 /* Build configuration list for PBXNativeTarget "VisitaLookWorld1.0" */;
+			buildPhases = (
+				AABD59B0A1E51B6359DAEC2A /* Check Pods Manifest.lock */,
+				AD42223C1BECB85D0067B1B0 /* Sources */,
+				AD42223D1BECB85D0067B1B0 /* Frameworks */,
+				AD42223E1BECB85D0067B1B0 /* Resources */,
+				FDA054D4BC304A2FC159BD02 /* Embed Pods Frameworks */,
+				42BE271CF6833BB5B18CF671 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisitaLookWorld1.0;
+			productName = VisitaLookWorld1.0;
+			productReference = AD4222401BECB85D0067B1B0 /* VisitaLookWorld1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4222581BECB85D0067B1B0 /* VisitaLookWorld1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4222701BECB85E0067B1B0 /* Build configuration list for PBXNativeTarget "VisitaLookWorld1.0Tests" */;
+			buildPhases = (
+				AD4222551BECB85D0067B1B0 /* Sources */,
+				AD4222561BECB85D0067B1B0 /* Frameworks */,
+				AD4222571BECB85D0067B1B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42225B1BECB85D0067B1B0 /* PBXTargetDependency */,
+			);
+			name = VisitaLookWorld1.0Tests;
+			productName = VisitaLookWorld1.0Tests;
+			productReference = AD4222591BECB85D0067B1B0 /* VisitaLookWorld1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD4222631BECB85D0067B1B0 /* VisitaLookWorld1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4222731BECB85E0067B1B0 /* Build configuration list for PBXNativeTarget "VisitaLookWorld1.0UITests" */;
+			buildPhases = (
+				AD4222601BECB85D0067B1B0 /* Sources */,
+				AD4222611BECB85D0067B1B0 /* Frameworks */,
+				AD4222621BECB85D0067B1B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4222661BECB85D0067B1B0 /* PBXTargetDependency */,
+			);
+			name = VisitaLookWorld1.0UITests;
+			productName = VisitaLookWorld1.0UITests;
+			productReference = AD4222641BECB85D0067B1B0 /* VisitaLookWorld1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4222381BECB85D0067B1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = guyubin;
+				TargetAttributes = {
+					AD42223F1BECB85D0067B1B0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63349GKWYV;
+					};
+					AD4222581BECB85D0067B1B0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63349GKWYV;
+						TestTargetID = AD42223F1BECB85D0067B1B0;
+					};
+					AD4222631BECB85D0067B1B0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63349GKWYV;
+						TestTargetID = AD42223F1BECB85D0067B1B0;
+					};
+				};
+			};
+			buildConfigurationList = AD42223B1BECB85D0067B1B0 /* Build configuration list for PBXProject "VisitaLookWorld1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4222371BECB85D0067B1B0;
+			productRefGroup = AD4222411BECB85D0067B1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD42223F1BECB85D0067B1B0 /* VisitaLookWorld1.0 */,
+				AD4222581BECB85D0067B1B0 /* VisitaLookWorld1.0Tests */,
+				AD4222631BECB85D0067B1B0 /* VisitaLookWorld1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD42223E1BECB85D0067B1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4222531BECB85D0067B1B0 /* LaunchScreen.storyboard in Resources */,
+				AD4222501BECB85D0067B1B0 /* Assets.xcassets in Resources */,
+				AD42224E1BECB85D0067B1B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4222571BECB85D0067B1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4222621BECB85D0067B1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42BE271CF6833BB5B18CF671 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABD59B0A1E51B6359DAEC2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA054D4BC304A2FC159BD02 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD42223C1BECB85D0067B1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42224B1BECB85D0067B1B0 /* ViewController.m in Sources */,
+				AD4222481BECB85D0067B1B0 /* AppDelegate.m in Sources */,
+				AD4222451BECB85D0067B1B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4222551BECB85D0067B1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42225E1BECB85D0067B1B0 /* VisitaLookWorld1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4222601BECB85D0067B1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4222691BECB85D0067B1B0 /* VisitaLookWorld1_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD42225B1BECB85D0067B1B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42223F1BECB85D0067B1B0 /* VisitaLookWorld1.0 */;
+			targetProxy = AD42225A1BECB85D0067B1B0 /* PBXContainerItemProxy */;
+		};
+		AD4222661BECB85D0067B1B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42223F1BECB85D0067B1B0 /* VisitaLookWorld1.0 */;
+			targetProxy = AD4222651BECB85D0067B1B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD42224C1BECB85D0067B1B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42224D1BECB85D0067B1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD4222511BECB85D0067B1B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4222521BECB85D0067B1B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD42226B1BECB85D0067B1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD42226C1BECB85D0067B1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD42226E1BECB85D0067B1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7EE40081325883B98DB2F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisitaLookWorld1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VisitaLookWorld1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD42226F1BECB85D0067B1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5127BF153E2BAC53F43545CE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisitaLookWorld1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VisitaLookWorld1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD4222711BECB85E0067B1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisitaLookWorld1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VisitaLookWorld1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitaLookWorld1.0.app/VisitaLookWorld1.0";
+			};
+			name = Debug;
+		};
+		AD4222721BECB85E0067B1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisitaLookWorld1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VisitaLookWorld1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitaLookWorld1.0.app/VisitaLookWorld1.0";
+			};
+			name = Release;
+		};
+		AD4222741BECB85E0067B1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisitaLookWorld1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VisitaLookWorld1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisitaLookWorld1.0;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD4222751BECB85E0067B1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisitaLookWorld1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VisitaLookWorld1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisitaLookWorld1.0;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD42223B1BECB85D0067B1B0 /* Build configuration list for PBXProject "VisitaLookWorld1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42226B1BECB85D0067B1B0 /* Debug */,
+				AD42226C1BECB85D0067B1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42226D1BECB85D0067B1B0 /* Build configuration list for PBXNativeTarget "VisitaLookWorld1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42226E1BECB85D0067B1B0 /* Debug */,
+				AD42226F1BECB85D0067B1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4222701BECB85E0067B1B0 /* Build configuration list for PBXNativeTarget "VisitaLookWorld1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4222711BECB85E0067B1B0 /* Debug */,
+				AD4222721BECB85E0067B1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4222731BECB85E0067B1B0 /* Build configuration list for PBXNativeTarget "VisitaLookWorld1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4222741BECB85E0067B1B0 /* Debug */,
+				AD4222751BECB85E0067B1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4222381BECB85D0067B1B0 /* Project object */;
+}
