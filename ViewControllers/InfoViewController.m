@@ -8,11 +8,10 @@
 
 
 #import "InfoViewController.h"
+#import "InfoDetailViewController.h"
 #import "InfoViewCell.h"
 #import "InfoModel.h"
-#import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
-#import "MBProgressHUD.h"
 
 #define MAX_WIDTH [UIScreen mainScreen].bounds.size.width
 #define MAX_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -43,7 +42,7 @@
 }
 
 - (void)setNavigationBarRefers {
-    self.edgesForExtendedLayout = UIRectEdgeNone;
+
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"设置_1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:nil action:nil];
 }
@@ -57,7 +56,7 @@
     
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager GET:@"http://ktx.cms.palmtrends.com/api_v2.php?%20action=home_list&sa=&uid=10067566&mobile=iphone5%20&offset=0&count=15&&e=b7849d41b00bbacc9a6254440%202abed9e&uid=10067566&pid=10053&mobile=iphone5&p%20latform=i!" parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+    [manager GET:@"http://ktx.cms.palmtrends.com/api_v2.php?%20action=home_list&sa=&uid=10067566&mobile=iphone5%20&offset=0&count=15&&e=b7849d41b00bbacc9a6254440%202abed9e&uid=10067566&pid=10053&mobile=iphone5&p%20latform=i" parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         id jsonObj = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
         for (NSDictionary *dic in jsonObj[@"list"]) {
             InfoModel * model = [[InfoModel alloc] init];
@@ -66,11 +65,11 @@
                 [_dataArray addObject:model];
             }
         }
-        
-        //刷新表格。
+            //刷新表格。
         [_collectionView reloadData];
+            
+        [_hub setHidden:YES]; //关闭小菊
         
-        [_hub setHidden:YES]; //关闭小菊花
         
     } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
         NSLog(@"%@",error);
@@ -79,6 +78,7 @@
 
 - (void)setLayout {
     
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     //表格布局
     UICollectionViewFlowLayout * flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
@@ -89,6 +89,7 @@
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     [_collectionView setBackgroundColor:[UIColor clearColor]];
+    _collectionView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:_collectionView];
     //注册cell
     [_collectionView registerNib:[UINib nibWithNibName:@"InfoViewCell" bundle:nil] forCellWithReuseIdentifier:@"cellIdentifier"];
@@ -130,6 +131,14 @@
 
 }
 
+//选中单元格事件
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    //资讯id
+    NSString * uId = [_dataArray[indexPath.row] infoId];
+    InfoDetailViewController * ivc = [[InfoDetailViewController alloc] init];
+    ivc.uId = uId;
+    [self.navigationController pushViewController:ivc animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

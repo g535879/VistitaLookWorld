@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+
 @interface ViewController : UIViewController
 
 

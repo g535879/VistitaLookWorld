@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		966E0AB1056D240A9E5DC7B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00223705B1868C35060D8A1D /* libPods.a */; };
+		AD3DF8411BEDF18A0078B55C /* MagDetailReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DF83F1BEDF18A0078B55C /* MagDetailReusableView.m */; settings = {ASSET_TAGS = (); }; };
+		AD3DF8421BEDF18A0078B55C /* MagDetailReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3DF8401BEDF18A0078B55C /* MagDetailReusableView.xib */; settings = {ASSET_TAGS = (); }; };
+		AD3DF8461BEDF49B0078B55C /* MagDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DF8441BEDF49B0078B55C /* MagDetailViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		AD3DF8471BEDF49B0078B55C /* MagDetailViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3DF8451BEDF49B0078B55C /* MagDetailViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		AD4222451BECB85D0067B1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222441BECB85D0067B1B0 /* main.m */; };
 		AD4222481BECB85D0067B1B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222471BECB85D0067B1B0 /* AppDelegate.m */; };
 		AD42224B1BECB85D0067B1B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42224A1BECB85D0067B1B0 /* ViewController.m */; };
@@ -464,10 +468,14 @@
 		AD4225FA1BECBDB90067B1B0 /* RespectableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4225F91BECBDB90067B1B0 /* RespectableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AD4225FD1BECBDC90067B1B0 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4225FC1BECBDC90067B1B0 /* PictureViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AD4225FF1BECC59B0067B1B0 /* bigShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4225FE1BECC59B0067B1B0 /* bigShadow.png */; settings = {ASSET_TAGS = (); }; };
-		AD4226031BECCBE70067B1B0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4226011BECCBE70067B1B0 /* TableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		AD4226041BECCBE70067B1B0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4226021BECCBE70067B1B0 /* TableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		AD5E735D1BEDCCF0002BE613 /* MagazineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5E735C1BEDCCF0002BE613 /* MagazineDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AD77A27D1BECE16700DA1929 /* InfoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD77A27B1BECE16700DA1929 /* InfoViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		AD77A27E1BECE16700DA1929 /* InfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD77A27C1BECE16700DA1929 /* InfoViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		ADAE37BC1BED8810002F1790 /* InfoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE37BB1BED8810002F1790 /* InfoDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ADAE37C01BEDA538002F1790 /* MagazineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE37BE1BEDA538002F1790 /* MagazineViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		ADAE37C11BEDA538002F1790 /* MagazineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAE37BF1BEDA538002F1790 /* MagazineViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		ADAE37C41BEDA7D8002F1790 /* MagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE37C31BEDA7D8002F1790 /* MagModel.m */; settings = {ASSET_TAGS = (); }; };
+		ADBC42551BEDEC7700F718D0 /* MagDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC42541BEDEC7700F718D0 /* MagDetailModel.m */; settings = {ASSET_TAGS = (); }; };
 		ADF53EED1BECD84D00C948B8 /* InfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF53EEC1BECD84D00C948B8 /* InfoModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -491,6 +499,12 @@
 /* Begin PBXFileReference section */
 		00223705B1868C35060D8A1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5127BF153E2BAC53F43545CE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AD3DF83E1BEDF18A0078B55C /* MagDetailReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagDetailReusableView.h; sourceTree = "<group>"; };
+		AD3DF83F1BEDF18A0078B55C /* MagDetailReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagDetailReusableView.m; sourceTree = "<group>"; };
+		AD3DF8401BEDF18A0078B55C /* MagDetailReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagDetailReusableView.xib; sourceTree = "<group>"; };
+		AD3DF8431BEDF49B0078B55C /* MagDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagDetailViewCell.h; sourceTree = "<group>"; };
+		AD3DF8441BEDF49B0078B55C /* MagDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagDetailViewCell.m; sourceTree = "<group>"; };
+		AD3DF8451BEDF49B0078B55C /* MagDetailViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagDetailViewCell.xib; sourceTree = "<group>"; };
 		AD4222401BECB85D0067B1B0 /* VisitaLookWorld1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitaLookWorld1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4222441BECB85D0067B1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD4222461BECB85D0067B1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -960,12 +974,20 @@
 		AD4225FB1BECBDC90067B1B0 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
 		AD4225FC1BECBDC90067B1B0 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
 		AD4225FE1BECC59B0067B1B0 /* bigShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigShadow.png; sourceTree = "<group>"; };
-		AD4226001BECCBE70067B1B0 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		AD4226011BECCBE70067B1B0 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		AD4226021BECCBE70067B1B0 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		AD5E735B1BEDCCF0002BE613 /* MagazineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagazineDetailViewController.h; path = ViewControllers/MagazineDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		AD5E735C1BEDCCF0002BE613 /* MagazineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagazineDetailViewController.m; path = ViewControllers/MagazineDetailViewController.m; sourceTree = SOURCE_ROOT; };
 		AD77A27A1BECE16700DA1929 /* InfoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewCell.h; path = ../../../../developer/Project/VisitaLookWorld1.0/View/InfoViewCell.h; sourceTree = "<group>"; };
 		AD77A27B1BECE16700DA1929 /* InfoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewCell.m; path = ../../../../developer/Project/VisitaLookWorld1.0/View/InfoViewCell.m; sourceTree = "<group>"; };
 		AD77A27C1BECE16700DA1929 /* InfoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoViewCell.xib; path = ../../../../developer/Project/VisitaLookWorld1.0/View/InfoViewCell.xib; sourceTree = "<group>"; };
+		ADAE37BA1BED8810002F1790 /* InfoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDetailViewController.h; sourceTree = "<group>"; };
+		ADAE37BB1BED8810002F1790 /* InfoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDetailViewController.m; sourceTree = "<group>"; };
+		ADAE37BD1BEDA538002F1790 /* MagazineViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazineViewCell.h; sourceTree = "<group>"; };
+		ADAE37BE1BEDA538002F1790 /* MagazineViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazineViewCell.m; sourceTree = "<group>"; };
+		ADAE37BF1BEDA538002F1790 /* MagazineViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagazineViewCell.xib; sourceTree = "<group>"; };
+		ADAE37C21BEDA7D8002F1790 /* MagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagModel.h; sourceTree = "<group>"; };
+		ADAE37C31BEDA7D8002F1790 /* MagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagModel.m; sourceTree = "<group>"; };
+		ADBC42531BEDEC7700F718D0 /* MagDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagDetailModel.h; sourceTree = "<group>"; };
+		ADBC42541BEDEC7700F718D0 /* MagDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagDetailModel.m; sourceTree = "<group>"; };
 		ADF53EEB1BECD84D00C948B8 /* InfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoModel.h; path = Model/InfoModel.h; sourceTree = SOURCE_ROOT; };
 		ADF53EEC1BECD84D00C948B8 /* InfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoModel.m; path = Model/InfoModel.m; sourceTree = SOURCE_ROOT; };
 		EF7EE40081325883B98DB2F3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1068,6 +1090,10 @@
 			children = (
 				ADF53EEB1BECD84D00C948B8 /* InfoModel.h */,
 				ADF53EEC1BECD84D00C948B8 /* InfoModel.m */,
+				ADAE37C21BEDA7D8002F1790 /* MagModel.h */,
+				ADAE37C31BEDA7D8002F1790 /* MagModel.m */,
+				ADBC42531BEDEC7700F718D0 /* MagDetailModel.h */,
+				ADBC42541BEDEC7700F718D0 /* MagDetailModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1084,12 +1110,18 @@
 		AD4222781BECBB680067B1B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AD4226001BECCBE70067B1B0 /* TableViewCell.h */,
-				AD4226011BECCBE70067B1B0 /* TableViewCell.m */,
-				AD4226021BECCBE70067B1B0 /* TableViewCell.xib */,
 				AD77A27A1BECE16700DA1929 /* InfoViewCell.h */,
 				AD77A27B1BECE16700DA1929 /* InfoViewCell.m */,
 				AD77A27C1BECE16700DA1929 /* InfoViewCell.xib */,
+				ADAE37BD1BEDA538002F1790 /* MagazineViewCell.h */,
+				ADAE37BE1BEDA538002F1790 /* MagazineViewCell.m */,
+				ADAE37BF1BEDA538002F1790 /* MagazineViewCell.xib */,
+				AD3DF83E1BEDF18A0078B55C /* MagDetailReusableView.h */,
+				AD3DF83F1BEDF18A0078B55C /* MagDetailReusableView.m */,
+				AD3DF8401BEDF18A0078B55C /* MagDetailReusableView.xib */,
+				AD3DF8431BEDF49B0078B55C /* MagDetailViewCell.h */,
+				AD3DF8441BEDF49B0078B55C /* MagDetailViewCell.m */,
+				AD3DF8451BEDF49B0078B55C /* MagDetailViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1101,8 +1133,12 @@
 				AD4225F01BECBD670067B1B0 /* MyTabBarController.m */,
 				AD4225F21BECBD8E0067B1B0 /* InfoViewController.h */,
 				AD4225F31BECBD8E0067B1B0 /* InfoViewController.m */,
+				ADAE37BA1BED8810002F1790 /* InfoDetailViewController.h */,
+				ADAE37BB1BED8810002F1790 /* InfoDetailViewController.m */,
 				AD4225F51BECBDA40067B1B0 /* MagazineViewController.h */,
 				AD4225F61BECBDA40067B1B0 /* MagazineViewController.m */,
+				AD5E735B1BEDCCF0002BE613 /* MagazineDetailViewController.h */,
+				AD5E735C1BEDCCF0002BE613 /* MagazineDetailViewController.m */,
 				AD4225F81BECBDB90067B1B0 /* RespectableViewController.h */,
 				AD4225F91BECBDB90067B1B0 /* RespectableViewController.m */,
 				AD4225FB1BECBDC90067B1B0 /* PictureViewController.h */,
@@ -1731,6 +1767,7 @@
 				AD4225371BECBD180067B1B0 /* 否_1.png in Resources */,
 				AD42253F1BECBD180067B1B0 /* 图片点击放大缺省图.png in Resources */,
 				AD4224C71BECBD180067B1B0 /* tip_success.png in Resources */,
+				AD3DF8421BEDF18A0078B55C /* MagDetailReusableView.xib in Resources */,
 				AD4225C11BECBD180067B1B0 /* 设置_1.png in Resources */,
 				AD42243D1BECBD180067B1B0 /* blackArrow@2x.png in Resources */,
 				AD4224B51BECBD180067B1B0 /* SVPullToRefresh.bundle in Resources */,
@@ -1764,6 +1801,7 @@
 				AD4224D11BECBD180067B1B0 /* 三角.png in Resources */,
 				AD4225861BECBD180067B1B0 /* 时间@2x.png in Resources */,
 				AD4225BE1BECBD180067B1B0 /* 记住密码_1@2x.png in Resources */,
+				ADAE37C11BEDA538002F1790 /* MagazineViewCell.xib in Resources */,
 				AD4224801BECBD180067B1B0 /* MicroBlog_Share_1@2x.png in Resources */,
 				AD4224861BECBD180067B1B0 /* MicroBlogDetail_Title@2x.png in Resources */,
 				AD4225071BECBD180067B1B0 /* 内页转发_2.png in Resources */,
@@ -1831,6 +1869,7 @@
 				AD4224991BECBD180067B1B0 /* NaviBar_Favor_con.png in Resources */,
 				AD4225B81BECBD180067B1B0 /* 绑定_2@2x.png in Resources */,
 				AD42244C1BECBD180067B1B0 /* Cell_flagImage@2x.png in Resources */,
+				AD3DF8471BEDF49B0078B55C /* MagDetailViewCell.xib in Resources */,
 				AD42249B1BECBD180067B1B0 /* NaviBar_Favor_con_1.png in Resources */,
 				AD42246F1BECBD180067B1B0 /* logo.png in Resources */,
 				AD4225E61BECBD180067B1B0 /* 酷图_2@2x.png in Resources */,
@@ -2125,7 +2164,6 @@
 				AD4224531BECBD180067B1B0 /* grayArrow@2x.png in Resources */,
 				AD4224691BECBD180067B1B0 /* Login_TextField.png in Resources */,
 				AD4224721BECBD180067B1B0 /* MicroBlog_Back@2x.png in Resources */,
-				AD4226041BECCBE70067B1B0 /* TableViewCell.xib in Resources */,
 				AD4224C41BECBD180067B1B0 /* tip_network@2x.png in Resources */,
 				AD42253A1BECBD180067B1B0 /* 否_2@2x.png in Resources */,
 				AD4225331BECBD180067B1B0 /* 取消绑定_1.png in Resources */,
@@ -2211,11 +2249,17 @@
 				AD4225F71BECBDA40067B1B0 /* MagazineViewController.m in Sources */,
 				ADF53EED1BECD84D00C948B8 /* InfoModel.m in Sources */,
 				AD42224B1BECB85D0067B1B0 /* ViewController.m in Sources */,
+				ADAE37C41BEDA7D8002F1790 /* MagModel.m in Sources */,
 				AD4225FA1BECBDB90067B1B0 /* RespectableViewController.m in Sources */,
+				AD5E735D1BEDCCF0002BE613 /* MagazineDetailViewController.m in Sources */,
+				ADAE37C01BEDA538002F1790 /* MagazineViewCell.m in Sources */,
+				AD3DF8461BEDF49B0078B55C /* MagDetailViewCell.m in Sources */,
 				AD4225F11BECBD670067B1B0 /* MyTabBarController.m in Sources */,
-				AD4226031BECCBE70067B1B0 /* TableViewCell.m in Sources */,
+				AD3DF8411BEDF18A0078B55C /* MagDetailReusableView.m in Sources */,
 				AD4222481BECB85D0067B1B0 /* AppDelegate.m in Sources */,
+				ADAE37BC1BED8810002F1790 /* InfoDetailViewController.m in Sources */,
 				AD4225FD1BECBDC90067B1B0 /* PictureViewController.m in Sources */,
+				ADBC42551BEDEC7700F718D0 /* MagDetailModel.m in Sources */,
 				AD4225F41BECBD8E0067B1B0 /* InfoViewController.m in Sources */,
 				AD77A27D1BECE16700DA1929 /* InfoViewCell.m in Sources */,
 				AD4222451BECB85D0067B1B0 /* main.m in Sources */,
