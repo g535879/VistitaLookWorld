@@ -19,25 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setRootNavigationBarRefer]; //设置导航栏
     [self setRootLayout]; //布局相关
 }
 
 
-
-- (void)setRootNavigationBarRefer {
-    
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bigShadow.png"] forBarMetrics:UIBarMetricsCompactPrompt];
-    UIImageView *bgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 20,MAX_WIDTH , 44)];
-    bgView.image = [UIImage imageNamed:@"标题栏底.png"];
-    [self.navigationController.view insertSubview:bgView belowSubview:self.navigationController.navigationBar];
-}
-
 //布局相关
 - (void)setRootLayout {
-    
     //设置背景图
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"资讯背景底@2x"]]];
+}
+
+- (UIViewController *)childViewControllerForStatusBarStyle {
+    return self;
 }
 
 - (void)didReceiveMemoryWarning {

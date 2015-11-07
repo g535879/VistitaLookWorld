@@ -12,6 +12,8 @@
 #import "RespectableViewController.h"
 #import "PictureViewController.h"
 #import "ViewController.h"
+#import "GuUINavigationController.h"
+
 @interface MyTabBarController (){
     
     NSMutableArray *_viewControllers; //子视图数组
@@ -42,7 +44,7 @@
     
     [_classNameArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         ViewController *rvc = [[NSClassFromString(obj) alloc] init];
-        UINavigationController *ngc = [[UINavigationController alloc] initWithRootViewController:rvc];
+        GuUINavigationController *ngc = [[GuUINavigationController alloc] initWithRootViewController:rvc];
 //        [[ngc.viewControllers firstObject] setTitle:_tabNameAndPicArray[idx][0]];
         [ngc.tabBarItem setImage:[[UIImage imageNamed:_tabNameAndPicArray[idx][1]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]]; //未选中图标
         [ngc.tabBarItem setSelectedImage:[[UIImage imageNamed:_tabNameAndPicArray[idx][2]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]]; //选中图片

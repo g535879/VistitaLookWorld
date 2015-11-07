@@ -29,7 +29,6 @@
 }
 //隐藏分栏
 -(void)viewWillAppear:(BOOL)animated {
-    NSLog(@"%@",self.uId);
     [super viewWillAppear:animated];
     self.navigationController.tabBarController.tabBar.hidden = YES;
 }

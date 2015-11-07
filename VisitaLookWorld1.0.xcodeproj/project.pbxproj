@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		966E0AB1056D240A9E5DC7B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00223705B1868C35060D8A1D /* libPods.a */; };
+		AD2766EB1BEE2B6D00A92097 /* CoolPicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2766EA1BEE2B6D00A92097 /* CoolPicDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AD363ABE1BEE352D009170DA /* GuUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD363ABD1BEE352D009170DA /* GuUINavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		AD363AC11BEE3A3C009170DA /* CoolPIcDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD363AC01BEE3A3C009170DA /* CoolPIcDetailModel.m */; settings = {ASSET_TAGS = (); }; };
 		AD3DF8411BEDF18A0078B55C /* MagDetailReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DF83F1BEDF18A0078B55C /* MagDetailReusableView.m */; settings = {ASSET_TAGS = (); }; };
 		AD3DF8421BEDF18A0078B55C /* MagDetailReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3DF8401BEDF18A0078B55C /* MagDetailReusableView.xib */; settings = {ASSET_TAGS = (); }; };
 		AD3DF8461BEDF49B0078B55C /* MagDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DF8441BEDF49B0078B55C /* MagDetailViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		AD3DF8471BEDF49B0078B55C /* MagDetailViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3DF8451BEDF49B0078B55C /* MagDetailViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		AD3DF84B1BEE1F2F0078B55C /* CoolPicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DF8491BEE1F2F0078B55C /* CoolPicViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		AD3DF84C1BEE1F2F0078B55C /* CoolPicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3DF84A1BEE1F2F0078B55C /* CoolPicViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		AD3DF8521BEE1FD90078B55C /* CoolPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DF8511BEE1FD90078B55C /* CoolPicModel.m */; settings = {ASSET_TAGS = (); }; };
 		AD4222451BECB85D0067B1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222441BECB85D0067B1B0 /* main.m */; };
 		AD4222481BECB85D0067B1B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4222471BECB85D0067B1B0 /* AppDelegate.m */; };
 		AD42224B1BECB85D0067B1B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42224A1BECB85D0067B1B0 /* ViewController.m */; };
@@ -499,12 +505,23 @@
 /* Begin PBXFileReference section */
 		00223705B1868C35060D8A1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5127BF153E2BAC53F43545CE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AD2766E91BEE2B6D00A92097 /* CoolPicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoolPicDetailViewController.h; path = ViewControllers/CoolPicDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		AD2766EA1BEE2B6D00A92097 /* CoolPicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoolPicDetailViewController.m; path = ViewControllers/CoolPicDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		AD363ABC1BEE352D009170DA /* GuUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuUINavigationController.h; sourceTree = "<group>"; };
+		AD363ABD1BEE352D009170DA /* GuUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuUINavigationController.m; sourceTree = "<group>"; };
+		AD363ABF1BEE3A3C009170DA /* CoolPIcDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoolPIcDetailModel.h; path = Model/CoolPIcDetailModel.h; sourceTree = SOURCE_ROOT; };
+		AD363AC01BEE3A3C009170DA /* CoolPIcDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoolPIcDetailModel.m; path = Model/CoolPIcDetailModel.m; sourceTree = SOURCE_ROOT; };
 		AD3DF83E1BEDF18A0078B55C /* MagDetailReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagDetailReusableView.h; sourceTree = "<group>"; };
 		AD3DF83F1BEDF18A0078B55C /* MagDetailReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagDetailReusableView.m; sourceTree = "<group>"; };
 		AD3DF8401BEDF18A0078B55C /* MagDetailReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagDetailReusableView.xib; sourceTree = "<group>"; };
 		AD3DF8431BEDF49B0078B55C /* MagDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagDetailViewCell.h; sourceTree = "<group>"; };
 		AD3DF8441BEDF49B0078B55C /* MagDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagDetailViewCell.m; sourceTree = "<group>"; };
 		AD3DF8451BEDF49B0078B55C /* MagDetailViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagDetailViewCell.xib; sourceTree = "<group>"; };
+		AD3DF8481BEE1F2F0078B55C /* CoolPicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoolPicViewCell.h; path = View/CoolPicViewCell.h; sourceTree = SOURCE_ROOT; };
+		AD3DF8491BEE1F2F0078B55C /* CoolPicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoolPicViewCell.m; path = View/CoolPicViewCell.m; sourceTree = SOURCE_ROOT; };
+		AD3DF84A1BEE1F2F0078B55C /* CoolPicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CoolPicViewCell.xib; path = View/CoolPicViewCell.xib; sourceTree = SOURCE_ROOT; };
+		AD3DF8501BEE1FD90078B55C /* CoolPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoolPicModel.h; path = Model/CoolPicModel.h; sourceTree = SOURCE_ROOT; };
+		AD3DF8511BEE1FD90078B55C /* CoolPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoolPicModel.m; path = Model/CoolPicModel.m; sourceTree = SOURCE_ROOT; };
 		AD4222401BECB85D0067B1B0 /* VisitaLookWorld1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitaLookWorld1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4222441BECB85D0067B1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD4222461BECB85D0067B1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1094,6 +1111,10 @@
 				ADAE37C31BEDA7D8002F1790 /* MagModel.m */,
 				ADBC42531BEDEC7700F718D0 /* MagDetailModel.h */,
 				ADBC42541BEDEC7700F718D0 /* MagDetailModel.m */,
+				AD3DF8501BEE1FD90078B55C /* CoolPicModel.h */,
+				AD3DF8511BEE1FD90078B55C /* CoolPicModel.m */,
+				AD363ABF1BEE3A3C009170DA /* CoolPIcDetailModel.h */,
+				AD363AC01BEE3A3C009170DA /* CoolPIcDetailModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1122,6 +1143,9 @@
 				AD3DF8431BEDF49B0078B55C /* MagDetailViewCell.h */,
 				AD3DF8441BEDF49B0078B55C /* MagDetailViewCell.m */,
 				AD3DF8451BEDF49B0078B55C /* MagDetailViewCell.xib */,
+				AD3DF8481BEE1F2F0078B55C /* CoolPicViewCell.h */,
+				AD3DF8491BEE1F2F0078B55C /* CoolPicViewCell.m */,
+				AD3DF84A1BEE1F2F0078B55C /* CoolPicViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1131,6 +1155,10 @@
 			children = (
 				AD4225EF1BECBD670067B1B0 /* MyTabBarController.h */,
 				AD4225F01BECBD670067B1B0 /* MyTabBarController.m */,
+				AD363ABC1BEE352D009170DA /* GuUINavigationController.h */,
+				AD363ABD1BEE352D009170DA /* GuUINavigationController.m */,
+				AD4222491BECB85D0067B1B0 /* ViewController.h */,
+				AD42224A1BECB85D0067B1B0 /* ViewController.m */,
 				AD4225F21BECBD8E0067B1B0 /* InfoViewController.h */,
 				AD4225F31BECBD8E0067B1B0 /* InfoViewController.m */,
 				ADAE37BA1BED8810002F1790 /* InfoDetailViewController.h */,
@@ -1143,8 +1171,8 @@
 				AD4225F91BECBDB90067B1B0 /* RespectableViewController.m */,
 				AD4225FB1BECBDC90067B1B0 /* PictureViewController.h */,
 				AD4225FC1BECBDC90067B1B0 /* PictureViewController.m */,
-				AD4222491BECB85D0067B1B0 /* ViewController.h */,
-				AD42224A1BECB85D0067B1B0 /* ViewController.m */,
+				AD2766E91BEE2B6D00A92097 /* CoolPicDetailViewController.h */,
+				AD2766EA1BEE2B6D00A92097 /* CoolPicDetailViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1932,6 +1960,7 @@
 				AD4225EE1BECBD180067B1B0 /* 酷图转发_2@2x.png in Resources */,
 				AD4224F71BECBD180067B1B0 /* 内文评论分割线.png in Resources */,
 				AD4224E11BECBD180067B1B0 /* 下底_2.png in Resources */,
+				AD3DF84C1BEE1F2F0078B55C /* CoolPicViewCell.xib in Resources */,
 				AD42250F1BECBD180067B1B0 /* 分割线.png in Resources */,
 				AD4224F21BECBD180067B1B0 /* 关@2x.png in Resources */,
 				AD4225281BECBD180067B1B0 /* 发表_1@2x.png in Resources */,
@@ -2248,12 +2277,17 @@
 			files = (
 				AD4225F71BECBDA40067B1B0 /* MagazineViewController.m in Sources */,
 				ADF53EED1BECD84D00C948B8 /* InfoModel.m in Sources */,
+				AD3DF84B1BEE1F2F0078B55C /* CoolPicViewCell.m in Sources */,
 				AD42224B1BECB85D0067B1B0 /* ViewController.m in Sources */,
 				ADAE37C41BEDA7D8002F1790 /* MagModel.m in Sources */,
 				AD4225FA1BECBDB90067B1B0 /* RespectableViewController.m in Sources */,
 				AD5E735D1BEDCCF0002BE613 /* MagazineDetailViewController.m in Sources */,
+				AD2766EB1BEE2B6D00A92097 /* CoolPicDetailViewController.m in Sources */,
+				AD363AC11BEE3A3C009170DA /* CoolPIcDetailModel.m in Sources */,
 				ADAE37C01BEDA538002F1790 /* MagazineViewCell.m in Sources */,
+				AD3DF8521BEE1FD90078B55C /* CoolPicModel.m in Sources */,
 				AD3DF8461BEDF49B0078B55C /* MagDetailViewCell.m in Sources */,
+				AD363ABE1BEE352D009170DA /* GuUINavigationController.m in Sources */,
 				AD4225F11BECBD670067B1B0 /* MyTabBarController.m in Sources */,
 				AD3DF8411BEDF18A0078B55C /* MagDetailReusableView.m in Sources */,
 				AD4222481BECB85D0067B1B0 /* AppDelegate.m in Sources */,

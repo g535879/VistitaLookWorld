@@ -35,6 +35,9 @@
 //导航栏相关
 - (void)setNavigationRefer {
     
+    //导航栏logo
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+
     self.edgesForExtendedLayout = UIRectEdgeNone;
     //左侧按钮
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"切换_1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(leftBtnClick)];
